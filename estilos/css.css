@@ -1,0 +1,193 @@
+body{
+
+    @import url(https://fonts.googleapis.com/css?family=Lora:700);
+
+}
+header{
+font-family: 'Lora', serif;
+background: #000;
+    color: #27ff00;
+    width: 100%;
+   height:
+}
+
+nav{
+    margin: auto;
+    width:100%;
+    max-width: 1000px;
+}
+
+nav ul{
+    list-style: none;
+}
+nav > ul{
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+}
+nav > ul li{
+    display: table-cell;
+}
+
+nav >ul > li:hover >ul{
+    display: block;
+}
+nav >ul >li >ul{
+    display: block;
+    position:fixed;
+}
+nav > ul > li > ul{
+    display: none;
+}
+nav > ul li a {
+
+
+    color: #fafafa;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+nav > ul > li > ul > li a:hover{
+   background: #fff;
+}
+nav > ul > li > a span{
+
+    background: #000;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -70px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+nav > ul > li > a span .icon{
+    display: block;
+    line-height: 60px;
+}
+nav > ul > li > a:hover > span {
+top: 0px;
+}
+nav ul li a .pri{
+    background:#37a4d9;
+}
+nav ul li a .se{
+    background:#FFCC99;
+}
+nav ul li a .ter{
+    background:#999999;
+}
+nav ul li a .cuar{
+    background:#f25724;
+}
+nav ul li a .qui{
+    background:#FF9966;
+}
+nav ul li a .se{
+    background:#BDB76B;
+}
+nav ul li a .sep{
+    background:#FFA500;
+}
+nav ul li a .oc{
+    background:#FF6666;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box ;
+    box-sizing:border-box ;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding:10px 15px;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.social ul li .icon-facebook{background:#3b5998 ;}
+.social ul li .icon-twitter{background:#00abf0 ;}
+.social ul li .icon-gmail{background: #e5431d;}
+.social ul li .icon-pinterest{background:#ae181f ;}
+.social ul li .icon-google{background:#666666 ;}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #333;
+}
+.silder{
+    margin-top:0px;
+    overflow: hidden;
+}
+.silder ul {
+    color: #000;
+    display:flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 19s infinite alternate;
+    animation:
+}
+.silder li{
+    width: 100%;
+    list-style: none;
+}
+.silder img {
+    width: 100%
+}
+@keyframes cambio{
+
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+.silder2{
+    margin-top: -50px;
+}
+.silder2 img {
+    width:100%;
+    height: 100%;
+}
+.silder p{
+    position: fixed;
+    left: 70;
+    top: 200px;
+    z-index: 2000;
+    margin: 30px;
+    font-size:0px;
+}
