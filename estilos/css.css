@@ -247,15 +247,15 @@ footer .cc{
     position:absolute;
     top: 51%;
     left:65%;
-    transform: translateX(-139%) translateY(830%);
+    transform: translateX(-24%) translateY(780%);
     color: #000;
 }
 .cont3{
     text-align: center;
-    font-size: 23px;
+    font-size: 18px;
     position:absolute;
     top: 51%;
     left:65%;
-    transform: translateX(-139%) translateY(1440%);
-     color: #2c2c2c;
+    transform: translateX(-25%) translateY(5049%);
+     color: #050202;
 }
