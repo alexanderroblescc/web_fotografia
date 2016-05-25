@@ -259,3 +259,12 @@ footer .cc{
     transform: translateX(-25%) translateY(5049%);
      color: #050202;
 }
+.cont2{
+    text-align: center;
+    font-size: 18px;
+    position:absolute;
+    top: 51%;
+    left:65%;
+    transform: translateX(-605%) translateY(6049%);
+     color: #050202;
+}
