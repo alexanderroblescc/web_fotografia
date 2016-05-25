@@ -1,3 +1,6 @@
+
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:700);
 body{
 
     @import url(https://fonts.googleapis.com/css?family=Lora:700);
@@ -190,4 +193,69 @@ nav ul li a .oc{
     z-index: 2000;
     margin: 30px;
     font-size:0px;
+}
+
+
+#info{
+    text-shadow:1px 23px 6px #3b2626;
+    transform: translateX(0%) translateY(20%);
+      color: #262626;
+    text-align: center;
+    padding: 5px;
+}
+#info .c {
+    margin: -870px;
+    display: flex;
+    justify-content: center;
+}
+.info-pet{
+    margin: 14px;
+}
+.info-pet img{
+
+font-family: 'EB Garamond', serif;
+    width: 250px;
+    height: 219px;
+    border-radius: 93px 44px 130px 44px;
+    border-bottom: 9px solid ;
+}
+
+footer .cc{
+
+    display: flex;
+}
+.copy{
+     align-content: center;
+     top: 221%;
+    left:76%;
+    font-size:20px ;
+}
+.ap{
+   align-content: center;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+}
+.ap a {
+    color: #000000;
+    text-decoration: none;
+}
+.cont4{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 66px;
+    position:absolute;
+    top: 51%;
+    left:65%;
+    transform: translateX(-139%) translateY(830%);
+    color: #000;
+}
+.cont3{
+    text-align: center;
+    font-size: 23px;
+    position:absolute;
+    top: 51%;
+    left:65%;
+    transform: translateX(-139%) translateY(1440%);
+     color: #2c2c2c;
 }
