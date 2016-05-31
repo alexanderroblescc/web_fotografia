@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Emdeaf</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="JAVA.js"></script>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="validRoblesAlex.js"></script>
+
+</head>
+<body>
+
+<form action="">
+   <h1> Bienvenido </h1>
+   <h> por favor rellene los campos</h>
+   <br>
+
+    <input   id="textfield2" onKeypress="sololetras()" type="text" name="nombre" placeholder="Usuario-nombre" title="Ingrese su nombre" class="solo-letra" required >
+    <input  onkeypress="return justNumbers(event);"  name="numero" maxlength="10" placeholder="*numeros* codigo-9-digitos" title="Ingrese numeros " required >
+    <button type="submit" value="Ingresar">ingresar</button>
+    <button type="button" >salir</button>
+
+</form>
+
+</body>
+</html>
