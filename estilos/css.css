@@ -271,3 +271,9 @@ footer .cc{
     transform: translateX(-605%) translateY(5849%);
     color: #050202;
 }
+.responsive{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}

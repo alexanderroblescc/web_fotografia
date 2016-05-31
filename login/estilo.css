@@ -4,14 +4,14 @@
     padding: 0px;
 }
 body{
-    background:url(img/i5.jpg)#9a6868;
+    background:url(img/i5.jpg)#ffffff;
     background-size: 110%;
 }
 form{
   background: hsl(74, 10%, 49%);
     width: 360px ;
     height: 290px;
-    border: 1px solid #0a00ff;
+    border: 1px solid #d6d5ed;
     border-radius: 19px 19px 19px 19px;
     box-shadow:inset 0 0 10px #ffffff;
     padding: 250px auto;
