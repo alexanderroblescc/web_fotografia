@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Pinyon+Script);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:url(img/i5.jpg)#9a6868;
+    background-size: 110%;
+}
+form{
+  background: hsl(74, 10%, 49%);
+    width: 360px ;
+    height: 290px;
+    border: 1px solid #0a00ff;
+    border-radius: 19px 19px 19px 19px;
+    box-shadow:inset 0 0 10px #ffffff;
+    padding: 250px auto;
+    margin: 79px auto;
+}
+form h1{
+
+font-family: 'Pinyon Script', cursive;
+  text-align: center;
+    color: #fafafa;
+    font-weight: normal;
+    font-size: 60px;
+    margin:20px 0pt;
+}
+form h{
+    text-align: center;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+    margin:-55px 0pt;
+    padding: 0px 60px;
+}
+
+form input{
+    background-color: #ffffff;
+    width: 280px;
+    height: 35px;
+    margin: 10px 30px;
+    padding: 0 10px;
+    color: #22156d;
+    text-align: center;
+}
+form button{
+    width: 80px;
+    margin: 0px 0 10px 70px;
+    height: 20px;
+}
