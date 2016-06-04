@@ -1,0 +1,31 @@
+.container h3{
+
+text-align: center;
+color:#ffffff;
+font-size:30px;
+font-family:Georgia;
+}
+.container h4{
+
+text-align: center;
+color:#ffffff;
+font-size:15px;
+font-family:Georgia;
+}
+@import url(https://fonts.googleapis.com/css?family=Andada);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+.cot4 h2{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 25px;
+    position:absolute;
+    top: 51%;
+    left:65%;
+    transform: translateX(130%) translateY(970%);
+     color: #fff;
+}
+h1{
+    color: aliceblue;
+    font-size: 18px;
+}
